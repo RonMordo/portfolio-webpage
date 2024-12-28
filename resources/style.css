@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    color: white;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    background-color: rgb(47, 55, 62);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    z-index: 10;
+    border-bottom: 1px solid white;
+}
+
+header img {
+    width: 10%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+nav li:hover {
+    background-color: rgb(185, 185, 185);
+}
+
+#about {
+    margin: 3rem auto;
+    padding-top: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    font-weight: 500;
+}
+
+#about h2 {
+    margin-bottom: 1rem;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#skills img {
+    width: 7rem;
+    height: 7rem;
+    margin: 1rem;
+}
+
+#projects {
+    margin-top: 5rem;
+}
+
+#projects h2 {
+    margin-bottom: 3rem;   
+}
+
+.project-image {
+    width: 25rem;
+    margin-bottom: 2rem;
+}
+
+.project-item p {
+    font-weight: 600;
+    line-height: 2;
+}
+
+#projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#contact {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h3 {
+    margin: 1rem;
+}
